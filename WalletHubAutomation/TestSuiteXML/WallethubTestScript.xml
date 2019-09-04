@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test" verbose="2" > 
+
+<test name="WalletHubTest">
+
+ <parameter name="URL"  value="http://wallethub.com/profile/test_insurance_company/" />
+ 
+ <!--Browser value can be select chrome,IE,firefox  -->
+  <parameter name="Browser" value="chrome"/>
+ 
+<!--Parameter value can be change as per requirement  -->
+  <parameter name="userID" value="ankursingh.creative@gmail.com"></parameter>
+    <parameter name="Password" value="WalletHub123@"></parameter>
+ 
+    <classes>
+      <class name="com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate"/>
+    </classes>
+  </test>
+</suite>

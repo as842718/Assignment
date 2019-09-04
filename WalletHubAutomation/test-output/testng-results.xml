@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test" duration-ms="93046" started-at="2018-01-16T17:27:58Z" finished-at="2018-01-16T17:29:31Z">
+    <groups>
+    </groups>
+    <test name="WalletHubTest" duration-ms="93046" started-at="2018-01-16T17:27:58Z" finished-at="2018-01-16T17:29:31Z">
+      <class name="com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate">
+        <test-method status="PASS" signature="launchApp(java.lang.String, java.lang.String)[pri:0, instance:com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate@2ac273d3]" name="launchApp" is-config="true" duration-ms="18350" started-at="2018-01-16T22:57:58Z" finished-at="2018-01-16T22:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://wallethub.com/profile/test_insurance_company/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="logInWalletHub(java.lang.String, java.lang.String)[pri:1, instance:com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate@2ac273d3]" name="logInWalletHub" duration-ms="15040" started-at="2018-01-16T22:58:16Z" finished-at="2018-01-16T22:58:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankursingh.creative@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WalletHub123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWalletHub -->
+        <test-method status="PASS" signature="provideRating()[pri:2, instance:com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate@2ac273d3]" name="provideRating" duration-ms="10553" started-at="2018-01-16T22:58:31Z" depends-on-methods="com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate.logInWalletHub" finished-at="2018-01-16T22:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideRating -->
+        <test-method status="PASS" signature="setPolicy()[pri:3, instance:com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate@2ac273d3]" name="setPolicy" duration-ms="32808" started-at="2018-01-16T22:58:42Z" depends-on-methods="com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate.provideRating" finished-at="2018-01-16T22:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPolicy -->
+        <test-method status="PASS" signature="reviewFeed()[pri:4, instance:com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate@2ac273d3]" name="reviewFeed" duration-ms="9186" started-at="2018-01-16T22:59:14Z" depends-on-methods="com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate.setPolicy" finished-at="2018-01-16T22:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewFeed -->
+        <test-method status="PASS" signature="logOut()[pri:5, instance:com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate@2ac273d3]" name="logOut" duration-ms="7046" started-at="2018-01-16T22:59:24Z" depends-on-methods="com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate.logInWalletHub" finished-at="2018-01-16T22:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate@2ac273d3]" name="closeApp" is-config="true" duration-ms="1" started-at="2018-01-16T22:59:31Z" finished-at="2018-01-16T22:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate -->
+    </test> <!-- WalletHubTest -->
+  </suite> <!-- Test -->
+</testng-results>

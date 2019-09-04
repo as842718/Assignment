@@ -1,0 +1,36 @@
+/***********************/
+SetUp Required :- 
+JDK 1.8.
+Eclipse 
+TestNg Plugin 
+Maven (Import it as maven project)
+/**************************/
+
+1) WalletHubAutomation is a maven project structure.
+
+2) POM(Project Object Model) FrameWork is used.
+
+3) This project folder contains two different assignment test Script.
+		- FaceBook Post new feed
+		- WalletHub post review feed
+		
+4) 	As per maven folder structure all (jar link or dependency) are added to pom.xml 
+		
+		resources folder - ReviewComment.txt - Use to feed review in WalletHub Script.
+						-	log4j.properties config file.
+		
+		Src/main/java folder - It's contains Object and component class.
+		
+		src/test/java folder - It's contains test script class.
+		
+		TestSuiteXML  folder  -  It having testNg .xml file to trigger script.	
+		
+		
+5) Test Script can be run on diff browser line (chrome,IE,firefox) #chrome would be more preferable 
+
+6) Driver folder contains all driver .exe for different browser 
+
+
+
+
+				*******Ankur Singh***			

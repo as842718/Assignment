@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [flipcart test]">
+  <test verbose="2" name="Regression1(failed)">
+    <parameter name="userID" value="ankursingh.creative@gmail.com"/>
+    <parameter name="URL" value="http://wallethub.com/profile/test_insurance_company/"/>
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="Password" value="WalletHub123@"/>
+    <classes>
+      <class name="com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate">
+        <methods>
+          <include name="reviewFeed"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.wallethub.assignment_2.WallethubTestScript.WalletHubAutomate -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [flipcart test] -->
